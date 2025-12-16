@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <None Include="get_directory.exe" />
+    <None Include="get_directory.py" />
     <None Include="variables.json" />
   </ItemGroup>
   <ItemGroup>
@@ -27,8 +27,12 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\..\AppData\Local\Programs\Python\Python313\include\Python.h" />
     <ClInclude Include="headers.h" />
     <ClInclude Include="internal functions.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\..\AppData\Local\Programs\Python\Python313\libs\python313.lib" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
@@ -128,6 +132,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\User\AppData\Local\Programs\Python\Python313\include; C:\Users\User\AppData\Local\Programs\Python\Python313\libs</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

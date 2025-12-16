@@ -15,15 +15,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\encryptAllwithpyarmor\encryptAllwithpyarmor\encryptAllwithpyarmor.py">
-      <Filter>Source Files</Filter>
-    </None>
     <None Include="variables.json">
       <Filter>Resource Files</Filter>
+    </None>
+    <None Include="get_directory.py">
+      <Filter>Source Files</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="internals.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -34,5 +37,13 @@
     <ClInclude Include="internal functions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\..\AppData\Local\Programs\Python\Python313\include\Python.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\..\AppData\Local\Programs\Python\Python313\libs\python313.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
   </ItemGroup>
 </Project>
